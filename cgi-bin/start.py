@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+print("Content-type: text/html")
+print()
+print('<head>')
+print('<meta charset="utf-8">')
+print('<title>Отправка файла на сервер</title>')
+print('</head>')
+print('<body>')
+print('<form action="localhost:8000//cgi-bin//save.py" enctype="multipart/form-data" method="post"')
+print('<p><input type="file" name="f">')
+print('<input type="submit" value="Отправка"></p>')
+print('</form> ')
+print('</body>')
